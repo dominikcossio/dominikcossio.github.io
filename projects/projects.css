@@ -1,0 +1,108 @@
+/* Project Page Styles */
+
+.project-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 4rem 2rem;
+}
+
+.project-header {
+    margin-bottom: 2.5rem;
+}
+
+.back-link {
+    display: inline-block;
+    color: #6B1615;
+    text-decoration: none;
+    font-size: 0.95rem;
+    letter-spacing: 0.12em;
+    transition: color 0.2s ease;
+}
+
+.back-link:hover {
+    color: #F5F2EC;
+}
+
+.project-meta {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.project-category {
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.18em;
+    color: rgba(245, 242, 236, 0.55);
+    line-height: 1;
+}
+
+.project-status {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.65rem 1rem;
+    border-radius: 999px;
+    background: rgba(107, 22, 21, 0.18);
+    color: #F5F2EC;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+}
+
+.project-title {
+    margin: 0 0 3rem;
+    font-size: clamp(2.6rem, 5vw, 3.5rem);
+    line-height: 1.1;
+    letter-spacing: -0.04em;
+}
+
+.project-section {
+    margin-bottom: 3.5rem;
+    max-width: 800px;
+}
+
+.project-section h2 {
+    margin: 0 0 1.2rem;
+    font-size: 1.35rem;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+}
+
+.project-section p {
+    margin: 0 0 1.2rem;
+    font-size: 1.05rem;
+    line-height: 1.8;
+    color: rgba(245, 242, 236, 0.88);
+}
+
+.project-section p:last-child {
+    margin-bottom: 0;
+}
+
+@media (max-width: 700px) {
+    .project-container {
+        padding: 2rem 1.5rem;
+    }
+
+    .project-header {
+        margin-bottom: 2rem;
+    }
+
+    .project-title {
+        margin-bottom: 2rem;
+    }
+
+    .project-section {
+        margin-bottom: 2.5rem;
+    }
+
+    .project-section h2 {
+        font-size: 1.25rem;
+    }
+
+    .project-section p {
+        font-size: 1rem;
+    }
+}
